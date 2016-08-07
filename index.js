@@ -9,7 +9,7 @@ const bodyParser = require('body-parser');
 const api = require('./api');
 
 const db = new Datastore({
-  filename: 'datastore/workshop.db',
+  filename: '/proyectLocal/datastore//workshop.db',
   autoload: true
 });
 
